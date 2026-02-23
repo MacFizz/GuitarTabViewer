@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>guitartabviewer</id>
+    <name>Guitar Tab Viewer</name>
+    <summary>View and play Guitar Pro tabs directly in Nextcloud</summary>
+    <description><![CDATA[Opens Guitar Pro files (.gp, .gp3, .gp4, .gp5, .gpx, .gp7) directly in the browser using the alphaTab library with built-in MIDI audio playback.]]></description>
+    <version>1.0.6</version>
+    <licence>agpl</licence>
+    <author>MacFizz</author>
+    <namespace>GuitarTabViewer</namespace>
+    <category>multimedia</category>
+    <bugs>https://github.com/macfizz/guitartabviewer/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="28" max-version="32"/>
+    </dependencies>
+    <types>
+        <filesystem/>
+    </types>
+    
+    <!-- Support mobile -->
+    <mobile>
+        <mimetype>audio/x-guitarpro</mimetype>
+    </mobile>
+</info>
