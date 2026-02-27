@@ -30,7 +30,7 @@
 
 ### Method 1: From release archive (recommended)
 
-1. Download the latest release from [Releases](https://github.com/yourusername/guitartabviewer/releases)
+1. Download the latest release from [Releases](https://github.com/MacFizz/guitartabviewer/releases)
 2. Extract to your Nextcloud apps directory:
    ```bash
    tar -xzf guitartabviewer-vX.X.X.tar.gz -C /var/www/nextcloud/apps/
@@ -55,7 +55,7 @@
 
 ```bash
 cd /var/www/nextcloud/apps/
-git clone https://github.com/yourusername/guitartabviewer.git
+git clone https://github.com/MacFizz/guitartabviewer.git
 cd guitartabviewer
 npm install --legacy-peer-deps
 npm run build
@@ -185,8 +185,8 @@ This project is licensed under the GNU Affero General Public License v3.0 - see 
 
 ## 📧 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/guitartabviewer/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/guitartabviewer/discussions)
+- **Issues**: [GitHub Issues](https://github.com/MacFizz/guitartabviewer/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/MacFizz/guitartabviewer/discussions)
 
 ---
 
